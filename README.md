@@ -12,16 +12,17 @@ Take the name after `ionic2-starter-`, and that is the name of the template to b
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+$ npm install
 ```
 
-Then, to run it, cd into `myTabs` and run:
+Then, to run it, cd into `myApp` and run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic serve
 ```
 
 Substitute ios for android if not on a Mac.
 
-"# myApp" 
+"# myApp"
+
+http://www.cnblogs.com/owenma/p/7237865.html
